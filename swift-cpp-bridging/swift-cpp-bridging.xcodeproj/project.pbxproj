@@ -14,6 +14,7 @@
 		88BEE02127FAC74800403BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BEE02027FAC74800403BB6 /* Assets.xcassets */; };
 		88BEE02427FAC74800403BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BEE02227FAC74800403BB6 /* LaunchScreen.storyboard */; };
 		88BEE02E27FAC9EA00403BB6 /* MyCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88BEE02C27FAC9EA00403BB6 /* MyCpp.cpp */; };
+		88BEE03027FAD01B00403BB6 /* CWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88BEE02F27FAD01B00403BB6 /* CWrapper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		88BEE02B27FAC9EA00403BB6 /* swift-cpp-bridging-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-cpp-bridging-Bridging-Header.h"; sourceTree = "<group>"; };
 		88BEE02C27FAC9EA00403BB6 /* MyCpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyCpp.cpp; sourceTree = "<group>"; };
 		88BEE02D27FAC9EA00403BB6 /* MyCpp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyCpp.hpp; sourceTree = "<group>"; };
+		88BEE02F27FAD01B00403BB6 /* CWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CWrapper.mm; sourceTree = "<group>"; };
+		88BEE03127FAD04F00403BB6 /* CWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWrapper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				88BEE01B27FAC74700403BB6 /* ViewController.swift */,
 				88BEE02C27FAC9EA00403BB6 /* MyCpp.cpp */,
 				88BEE02D27FAC9EA00403BB6 /* MyCpp.hpp */,
+				88BEE02F27FAD01B00403BB6 /* CWrapper.mm */,
+				88BEE03127FAD04F00403BB6 /* CWrapper.h */,
 				88BEE01D27FAC74700403BB6 /* Main.storyboard */,
 				88BEE02027FAC74800403BB6 /* Assets.xcassets */,
 				88BEE02227FAC74800403BB6 /* LaunchScreen.storyboard */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BEE03027FAD01B00403BB6 /* CWrapper.mm in Sources */,
 				88BEE01C27FAC74700403BB6 /* ViewController.swift in Sources */,
 				88BEE01827FAC74700403BB6 /* AppDelegate.swift in Sources */,
 				88BEE01A27FAC74700403BB6 /* SceneDelegate.swift in Sources */,
